@@ -22,7 +22,6 @@ def lcsM(X, Y, m, n, dp):
 		dp[m][n] = max(lcsM(X, Y, m, n-1, dp), lcsM(X, Y, m-1, n, dp))
 		return dp[m][n]
 
-#Bottom Up
 def lcsBU(X, Y, m, n):
 	
 		#Matrice per salvare i valori DP -> (m+1) x (n+1)
