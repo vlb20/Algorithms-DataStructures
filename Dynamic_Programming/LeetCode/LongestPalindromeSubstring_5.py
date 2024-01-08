@@ -40,7 +40,7 @@ def longestPalSubstr(st):
                     start = i # Aggiorno l'indice di inizio della stringa pal. più lunga
                     maxLength = k # Aggiorno la lunghezza massima
 
-    print("La sottostringa palindorma più lunga e': ", end="")
+    print("La sottostringa palindroma più lunga e': ", end="")
     printSubStr(st, start, start + maxLength - 1)
 
     return maxLength
