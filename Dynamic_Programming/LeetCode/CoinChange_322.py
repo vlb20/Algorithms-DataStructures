@@ -27,8 +27,6 @@ def minCoins(coins, n, target, dp):
     return res if res != sys.maxsize else -1
 
 #------------
-
-#O(target * n) - Bottom Up
 #O(target * n) - Bottom Up
 def minCoinsBU(coins, n, target):
 
